@@ -259,7 +259,7 @@ public class BureauSecurityLib {
   @objc deinit
 }
 public struct BureauConfig {
-  public init(credentialID: Swift.String, environment: BureauSDKiOS.Environment, enableBehavioralBiometrics: Swift.Bool = false, flow: Swift.String = "", enableDebugLog: Swift.Bool = false)
+  public init(credentialID: Swift.String, environment: BureauSDKiOS.Environment, enableBehavioralBiometrics: Swift.Bool = false, userId: Swift.String = "", flow: Swift.String = "", enableDebugLog: Swift.Bool = false)
 }
 extension BureauSDKiOS.Environment : Swift.Equatable {}
 extension BureauSDKiOS.Environment : Swift.Hashable {}
