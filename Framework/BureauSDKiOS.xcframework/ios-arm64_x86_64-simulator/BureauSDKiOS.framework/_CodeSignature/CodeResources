@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BureauSDKiOS-Swift.h</key>
 		<data>
-		pfb1t2TCneJMFdu3dV15jci0SJ4=
+		Hx6NAx0yplojmMb/TZmHUP+/RXw=
 		</data>
 		<key>Headers/bureau-id-fraud-sdk.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LLCRfUrrZ37+7LGhHBgAX8aG/Wk=
+		ypTf4t+GMowEznXQn6qnEVbmsII=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		8Irnzlad73kOTlIVUBlHwJs9q9Q=
+		FN0gkJWP4SqSx5McdSnACnedD18=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kMfR0qGZc0UgohmD+ACuJGzYqBQ=
+		w0b+PLqiPMdah+51ro7AAHkva+w=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		6OJMRdaNkXmlHtbebffBuL4ZTSk=
+		f45GhvTRYqqUhtxXUWKxYhdMlzs=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kMfR0qGZc0UgohmD+ACuJGzYqBQ=
+		w0b+PLqiPMdah+51ro7AAHkva+w=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		z++bUnSG4g6kg06iR+jtpaBR/IQ=
+		80xy8XloH4JwW8GsfIMMCl6m8mg=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8Irnzlad73kOTlIVUBlHwJs9q9Q=
+		FN0gkJWP4SqSx5McdSnACnedD18=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TD+iB1ACjGGq3HqGGJlI+czUNms=
+		DB+IqWfP5vYuppbmos7wqeF537M=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ImqaRn3nIi10pVoLbk7CjSh9PRI=
+		SYcRptnXWa45R+41QP9WFf1nkb0=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TD+iB1ACjGGq3HqGGJlI+czUNms=
+		DB+IqWfP5vYuppbmos7wqeF537M=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MNMven2+M8Ps7aI7Iq0cb3UDvn0=
+		hrv/yodmVuaAV6NqNoBrXh2Pxbo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hCoh7gXrYN0wrZCyjglLjYySwKOVIjGrUfdIZnEj2Co=
+			FYMOSkhgN+7cnvx/gM9YzTM1jtJF4J4Z3N4n5KpfVs8=
 			</data>
 		</dict>
 		<key>Headers/bureau-id-fraud-sdk.h</key>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gq0g2ixoIhSvmiLgk0pK4uKvrYoU+g6H1IVYE0M23/A=
+			TmhSbhFXK+gIhVhqWoHUVC+PI9VyZPcEToaez5biXwg=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oAKtUS5RimHe7HT7rZeQ2ejK+AVniAbqUCM620TDa0w=
+			iSprHZFXMUKaNFcTsimZL2Czi7HUb1NMz6vL8/in5sU=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			70My5TJqbRWvaQ6YK4aMmskXUQTzi+KVJYNfNzi1Rk0=
+			Gj/Kx6tlvXFHYanGXVos0cWE9/5t/mbUqqKsMP6OBCk=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oAKtUS5RimHe7HT7rZeQ2ejK+AVniAbqUCM620TDa0w=
+			iSprHZFXMUKaNFcTsimZL2Czi7HUb1NMz6vL8/in5sU=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IKrx4AUYMUUseL1RKIgvCMAK5MTVZ3qaDt8sHYeZxiI=
+			EHAmo7eJAdLCdiN5Neq9sRIqu8OdHzF/NX7WOS+aIh0=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gq0g2ixoIhSvmiLgk0pK4uKvrYoU+g6H1IVYE0M23/A=
+			TmhSbhFXK+gIhVhqWoHUVC+PI9VyZPcEToaez5biXwg=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XI48Z2VQ+7ptpIg6Uk80+LB3L0/YEqr4Uyn9srInEUU=
+			6DKO8OIuwpOUJLkv9WfukDMi+fFyy7Uf3CHWv4yk2eU=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ji/MIGuDxfGjjEvpRookNITzNA3NchZPyDQSOD7DxBc=
+			r/mZ3Ow3YX0bdmRTFVAvZBEXnzvb+AXCnWnXcex7JoU=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XI48Z2VQ+7ptpIg6Uk80+LB3L0/YEqr4Uyn9srInEUU=
+			6DKO8OIuwpOUJLkv9WfukDMi+fFyy7Uf3CHWv4yk2eU=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vH+a9yzh8M7tDBsYER0bDSEgl+1qZuPjrmteCm0KL+8=
+			2ORcHwY82UdPt/kjiev5VXTDUAMdhXoI5xURDPpRAZY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
