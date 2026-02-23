@@ -9615,7 +9615,7 @@
       "kind": "StringLiteral",
       "offset": 203,
       "length": 29,
-      "value": "\"https:\/\/bbauat.sbi.bank.in\/\""
+      "value": "\"https:\/\/bbadev.sbi.bank.in\/\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
@@ -9628,167 +9628,167 @@
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 344,
-      "length": 29,
-      "value": "\"https:\/\/bbauat.sbi.bank.in\/\""
+      "length": 26,
+      "value": "\"https:\/\/bba.sbi.bank.in\/\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 408,
+      "offset": 405,
       "length": 7,
-      "value": "\"0.0.6\""
+      "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 443,
+      "offset": 440,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/z0AqqbOP2od7ag4sNW\/MbvAD8wXuOQmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBrOUahomTsZPo6Q3HTQyoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYurtlC4CyrePt8HODAJdqcFIQeUE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT40KB+WLzyUF0GUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1050,
+      "offset": 1047,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/zOAqqbOP2od7ag4sNW\/MbvAD8wXu0QmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBr0UahowTszPo6Q3HTyQoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYulkdC4CyrePt8HODAJdqcFIQeuE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT4OKB+WLzyUF0GUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1657,
+      "offset": 1654,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/z0AqqbOP2od7ag4sNW\/MbvAD8wXu0QmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBr0UahowTszPo6Q3HTQyoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYurtlC4CyrePt8HODAJdqcFIQeuE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT40KB+WLzyUF0GUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2269,
+      "offset": 2266,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9wOBAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/z0AqqbOP2od7ag4sNW\/MbvAD8wXu0QmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBr0UahowTszPo6Q3HTQyoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYurtlC4CyrePt8HODAJdqcFIQeuE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT40KB+WLzyUFOGUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2875,
+      "offset": 2872,
       "length": 400,
       "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1ZWFRiVDWd7o++ufxGHzqYueDarqrAucC4NvFf9ReaTYTutOQfGWi6IrqSClnM13tVDOm0UtCsrbcbByg9fyOUDZSma1A2JZFbT8f6Yz\/+3rIVTX1XeH1qtZIGm6UG2vLUK00V+OHWX9UMVsrsx3C7njlR1g4JavjN3Xbr73WCwk+rPWCCXT1Ro01IxToEeTrZ5TrL2iZ2wyHgzqCITlI4bBEDbotPYZEn980JeZv5swfVnJ4+HhJfWj2LBA9e2uLgIRtsTIf7eu\/gcQMGdZ9IDsSBWQGOgSqjgihbnUp1gWvGeXR3lTDYUyTO4vtjG+X1qZ\/UTaVmUN6aJo0XLfHwIDAQAB\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3305,
+      "offset": 3302,
       "length": 400,
       "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApfCytJDH\/Vz5v9cF+5adOHjCRy07qBIKLoEIvwNMDjIi\/tOzJI1EBRPPWvqZkwbeiQ6BZ2pkKIoi8\/0sfcUDV5CQ3kxigtT6lMV\/U6CwKUaF9228EC6hTQJa+xSs0+6zzFC1ekOWCAGk+WL2kU1aD5WGzYmKBVBL5Vi6wbzlB\/KzUjE+d3Q54AfQwnb752wvQ0OVh7h4tqQuIHzrju63GhhRtdzw2jb3sxSorWJHn8SqIuOkfLOw4vo0TuxCopSXjcteXs\/erhhDTNDgFFaTqA8ec\/D8TMD\/7flU5xlHHHQ27ndEKVL4I5dcak6tdhStWHVhiNFbMG3wuHNQZP\/4DQIDAQAB\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3733,
+      "offset": 3730,
       "length": 279,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgeihrwu6Oh4ucFwCVtW9fuzAP\nDdJt1+8zOlxTqZY7AumJJjFSqbzJf0m76ZYuZfVNJpx8wiyv3LiUEAIiEQpm5P+k\nRYyBEEBXAG2w+xmY8dJy4y\/fDLIhVj3TNdCq\/Rz9tOAZN7hYCVEbBJtJLh3rqqGz\n+AvPdOBoJTfGQQVS3QIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4075,
+      "offset": 4072,
       "length": 33,
       "value": "\"v1\/deviceService\/deviceData\/ios\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4144,
+      "offset": 4141,
       "length": 7,
       "value": "\"v2\/pc\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4190,
+      "offset": 4187,
       "length": 39,
       "value": "\"v1\/deviceService\/behaviour\/subSession\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4261,
+      "offset": 4258,
       "length": 109,
       "value": "\"wss:\/\/k69rlbfuz2.execute-api.ap-south-1.amazonaws.com\/dev?credentialId=3e8449fb-d8a0-4e38-a643-ab4bb6d8d775\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5535,
+      "offset": 5532,
       "length": 23,
       "value": "\"kcUniqueIdentifierKey\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5648,
+      "offset": 5645,
       "length": 11,
       "value": "\"kcAppGuid\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5701,
+      "offset": 5698,
       "length": 15,
       "value": "\"kcAppGuidHash\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5764,
+      "offset": 5761,
       "length": 12,
       "value": "\"isTampered\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6027,
-      "length": 54,
-      "value": "\"https:\/\/api.dev.bureau.id\/v1\/instrumentation\/sdk\/ios\""
+      "offset": 6024,
+      "length": 55,
+      "value": "\"https:\/\/bbadev.sbi.bank.in\/v1\/instrumentation\/sdk\/ios\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6134,
+      "offset": 6132,
       "length": 55,
       "value": "\"https:\/\/bbauat.sbi.bank.in\/v1\/instrumentation\/sdk\/ios\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6243,
-      "length": 55,
-      "value": "\"https:\/\/bbauat.sbi.bank.in\/v1\/instrumentation\/sdk\/ios\""
+      "offset": 6241,
+      "length": 52,
+      "value": "\"https:\/\/bba.sbi.bank.in\/v1\/instrumentation\/sdk\/ios\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6353,
+      "offset": 6348,
       "length": 102,
       "value": "\"M2U4NDQ5ZmItZDhhMC00ZTM4LWE2NDMtYWI0YmI2ZDhkNzc1OjEwYjYwZTQyLTA3MDAtNDNhMy04NzE5LWJhNGFiNmRlZGIxZA==\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6482,
+      "offset": 6477,
       "length": 102,
       "value": "\"MzNiNTQ0N2ItZGU2My00MTZjLTgzYTMtYjdhNTk5ZTVmYjU1OjFhZGQwMjAxLWZiODEtNDJjOS1hMzNiLTcxN2Y1ZWVkNWVmNg==\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6611,
+      "offset": 6606,
       "length": 102,
       "value": "\"ODA5MjVhMjktN2U0Yi00N2I4LWI0ZDMtN2YyZmMyZDY5ZTU3OmEzZjEyZWFkLWI0OWEtNDdkNi05Mzg4LTRiYzkzZWM3N2RhNQ==\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6849,
+      "offset": 6844,
       "length": 9,
       "value": "\"private\""
     },
