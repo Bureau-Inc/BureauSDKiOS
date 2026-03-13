@@ -15,7 +15,6 @@ import CoreTelephony
 import CryptoKit
 import Darwin
 import Foundation
-import JavaScriptCore
 import LocalAuthentication
 import MachO
 import MessageUI
@@ -23,7 +22,6 @@ import Network
 import ObjectiveC
 import Security
 import Swift
-import SwiftUI
 import SystemConfiguration
 import UIKit
 import WebKit

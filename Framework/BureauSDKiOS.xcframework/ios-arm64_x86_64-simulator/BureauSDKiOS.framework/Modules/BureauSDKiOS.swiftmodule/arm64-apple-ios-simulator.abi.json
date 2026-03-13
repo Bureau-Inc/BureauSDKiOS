@@ -2711,13 +2711,6 @@
       },
       {
         "kind": "Import",
-        "name": "JavaScriptCore",
-        "printedName": "JavaScriptCore",
-        "declKind": "Import",
-        "moduleName": "BureauSDKiOS"
-      },
-      {
-        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -3310,13 +3303,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "BureauSDKiOS"
       },
       {
         "kind": "TypeDecl",
@@ -9636,7 +9622,7 @@
       "kind": "StringLiteral",
       "offset": 405,
       "length": 7,
-      "value": "\"1.0.0\""
+      "value": "\"1.0.1\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
@@ -9718,77 +9704,77 @@
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5532,
+      "offset": 5526,
       "length": 23,
       "value": "\"kcUniqueIdentifierKey\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5645,
+      "offset": 5639,
       "length": 11,
       "value": "\"kcAppGuid\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5698,
+      "offset": 5692,
       "length": 15,
       "value": "\"kcAppGuidHash\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5761,
+      "offset": 5755,
       "length": 12,
       "value": "\"isTampered\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6024,
+      "offset": 6018,
       "length": 55,
       "value": "\"https:\/\/bbadev.sbi.bank.in\/v1\/instrumentation\/sdk\/ios\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6132,
+      "offset": 6126,
       "length": 55,
       "value": "\"https:\/\/bbauat.sbi.bank.in\/v1\/instrumentation\/sdk\/ios\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6241,
+      "offset": 6235,
       "length": 52,
       "value": "\"https:\/\/bba.sbi.bank.in\/v1\/instrumentation\/sdk\/ios\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6348,
+      "offset": 6342,
       "length": 102,
       "value": "\"M2U4NDQ5ZmItZDhhMC00ZTM4LWE2NDMtYWI0YmI2ZDhkNzc1OjEwYjYwZTQyLTA3MDAtNDNhMy04NzE5LWJhNGFiNmRlZGIxZA==\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6477,
+      "offset": 6471,
       "length": 102,
       "value": "\"MzNiNTQ0N2ItZGU2My00MTZjLTgzYTMtYjdhNTk5ZTVmYjU1OjFhZGQwMjAxLWZiODEtNDJjOS1hMzNiLTcxN2Y1ZWVkNWVmNg==\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6606,
+      "offset": 6600,
       "length": 102,
       "value": "\"ODA5MjVhMjktN2U0Yi00N2I4LWI0ZDMtN2YyZmMyZDY5ZTU3OmEzZjEyZWFkLWI0OWEtNDdkNi05Mzg4LTRiYzkzZWM3N2RhNQ==\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/ios-device-intelligence-sdk\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6844,
+      "offset": 6838,
       "length": 9,
       "value": "\"private\""
     },
