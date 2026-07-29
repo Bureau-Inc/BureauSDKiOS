@@ -77,6 +77,9 @@ public typealias CompletionBlock = (_ eventID: Swift.String, _ result: Swift.Boo
   public static func initialize(config: BureauSDKiOS.BureauConfig)
   public func setFlow(_ flow: Swift.String)
   public func submit() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func getPayload(timeOut: Swift.Int = 200, getEventId: @escaping (_ eventId: Swift.String) -> Swift.Void, completion: @escaping (_ payload: [Swift.String : Swift.String]?) -> Swift.Void)
+  #endif
   @objc deinit
 }
 extension BureauSDKiOS.BureauSDK : CoreLocation.CLLocationManagerDelegate {
