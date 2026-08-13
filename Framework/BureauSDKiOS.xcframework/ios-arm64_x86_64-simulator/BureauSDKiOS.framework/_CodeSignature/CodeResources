@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BureauSDKiOS-Swift.h</key>
 		<data>
-		Hx6NAx0yplojmMb/TZmHUP+/RXw=
+		tWwMf03bPOav7I1wEgaMl3ji9oI=
 		</data>
 		<key>Headers/bureau-id-fraud-sdk.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oSchEW1AAzjJrF+fvaFzRlJcSAE=
+		ypTf4t+GMowEznXQn6qnEVbmsII=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		k0BE6g8miMuIo2zVKZH3u23n2R4=
+		91KIeOW4lvy8uXLYiE2XMyPM5lI=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dVr6AI0vlRnqZjIn4ZkFg2jidxM=
+		woaKx+U9XP7a+lI/ha5cHeCZeH4=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dVr6AI0vlRnqZjIn4ZkFg2jidxM=
+		woaKx+U9XP7a+lI/ha5cHeCZeH4=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GpANJ5rvt1HPheQVZHrNcrd7l/E=
+		jaS7cpPh1UWMW3bwhuR5BrebbFo=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		k0BE6g8miMuIo2zVKZH3u23n2R4=
+		91KIeOW4lvy8uXLYiE2XMyPM5lI=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RWAdpCGvJ73JWygCvUZ+5+HfG2Q=
+		sSGa2Qr6wZSYAszC090HPtOIYKM=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RWAdpCGvJ73JWygCvUZ+5+HfG2Q=
+		sSGa2Qr6wZSYAszC090HPtOIYKM=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9rcBXPbk8dUcMsGcPZSAFKssbmw=
+		PN45BpPE7snT6PgFRw7G53DRecA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FYMOSkhgN+7cnvx/gM9YzTM1jtJF4J4Z3N4n5KpfVs8=
+			sT+Xx9iwjVXvNYzoEnMgX6iKKICvbP4aEM04589Q23g=
 			</data>
 		</dict>
 		<key>Headers/bureau-id-fraud-sdk.h</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JRMRuLrjcAz+Qvpr0FlTh89VBeowNnNhmspBQmIPc2o=
+			KCwqfmzvziPJj4A4xdKN/uN9tK0uYN9VRLIBwp38cZ8=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RDNg59VV/1hQIg9X3GrVFRA0XsqH9vOjRSH+OodlW+0=
+			DzEij1aL7LVZ22kcP60juabBNfvqDr2LErNebCqxoXI=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -106,28 +106,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RDNg59VV/1hQIg9X3GrVFRA0XsqH9vOjRSH+OodlW+0=
+			DzEij1aL7LVZ22kcP60juabBNfvqDr2LErNebCqxoXI=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AOSDgdWryaAZn9HSen5rTWr025g9hr+B9id2OaxPXAQ=
+			o4D0+BhuUubwFEVeuMM9RSifUa3yufFEaR2fAOBOTsI=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JRMRuLrjcAz+Qvpr0FlTh89VBeowNnNhmspBQmIPc2o=
+			KCwqfmzvziPJj4A4xdKN/uN9tK0uYN9VRLIBwp38cZ8=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			15FGCXyShsKPQYBOg+yJ1yY0yPFWqAQBxE/6YTGuR6Y=
+			sq18s0Fr+qDJUouuP/GuXbP9utjaNI/QtnoTlh56dTU=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -141,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			15FGCXyShsKPQYBOg+yJ1yY0yPFWqAQBxE/6YTGuR6Y=
+			sq18s0Fr+qDJUouuP/GuXbP9utjaNI/QtnoTlh56dTU=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SiDwoEcOQq+SE/afqKLCW5R7GlFD80gbVDXV8DZFVRQ=
+			60rT5d1bKErm0GbdC2wyK4xFc6kZzcC7IHiZdf+FfSE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

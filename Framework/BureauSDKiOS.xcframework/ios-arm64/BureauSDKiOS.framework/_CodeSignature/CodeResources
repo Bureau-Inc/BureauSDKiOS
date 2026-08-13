@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BureauSDKiOS-Swift.h</key>
 		<data>
-		854QS8cZ4pMD6cvaHhLK5+D1BEM=
+		ZNZp485u5NBhozXAyUId1mjVM9U=
 		</data>
 		<key>Headers/bureau-id-fraud-sdk.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jYcXidHu5qfC8KyUpZB7W3CQw1s=
+		iJGVTbHgsxfsstH+lJgvfRPwisY=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		k0BE6g8miMuIo2zVKZH3u23n2R4=
+		91KIeOW4lvy8uXLYiE2XMyPM5lI=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		T725dknN64q5LDb4P/VbkLuqVlU=
+		3UWXgK37lIqjBJlAQlT3rse8ueg=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		T725dknN64q5LDb4P/VbkLuqVlU=
+		3UWXgK37lIqjBJlAQlT3rse8ueg=
 		</data>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6VuugxOgt6pr/M74XA9hnB8i7CU=
+		ynI/P6sxXodPb7nl+1ZVlm3X6XQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IcBJ8cIU/v4r/UutrdtAICTmv8d2ZB3kVnKcbJbv/HA=
+			AL5KKXLLjgd1QgL/o4MhjuGYm/IlSk/mcqqYUz0CFro=
 			</data>
 		</dict>
 		<key>Headers/bureau-id-fraud-sdk.h</key>
@@ -65,14 +65,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JRMRuLrjcAz+Qvpr0FlTh89VBeowNnNhmspBQmIPc2o=
+			KCwqfmzvziPJj4A4xdKN/uN9tK0uYN9VRLIBwp38cZ8=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7A/lX68H6/zk0cKsiorj71Lv7yUaUv/ide84UwVZZHc=
+			RbBf/XVwtNq+cMgX6Jh+7pw2KKdUAy4wfJt5ragu3fs=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -86,14 +86,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7A/lX68H6/zk0cKsiorj71Lv7yUaUv/ide84UwVZZHc=
+			RbBf/XVwtNq+cMgX6Jh+7pw2KKdUAy4wfJt5ragu3fs=
 			</data>
 		</dict>
 		<key>Modules/BureauSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mbePB3QqUldnTjXCVVNKDbHX9BiHzgkDGsCqO7O990w=
+			6EFSXOLgdLEfY8vc7fuivhZfAE0j0z28gEym+p4F/3Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
