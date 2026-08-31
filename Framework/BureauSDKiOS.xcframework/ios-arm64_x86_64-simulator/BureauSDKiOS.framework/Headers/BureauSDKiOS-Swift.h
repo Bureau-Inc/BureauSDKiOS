@@ -284,6 +284,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreLocation;
 @import Foundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -316,6 +317,13 @@ SWIFT_CLASS("_TtC12BureauSDKiOS9BureauSDK")
 @class CLLocation;
 @interface BureauSDK (SWIFT_EXTENSION(BureauSDKiOS)) <CLLocationManagerDelegate>
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+@end
+
+@class UIGestureRecognizer;
+SWIFT_CLASS("_TtC12BureauSDKiOS20UserBehaviourCapture")
+@interface UserBehaviourCapture : NSObject <UIGestureRecognizerDelegate>
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #endif
@@ -612,6 +620,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreLocation;
 @import Foundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -644,6 +653,13 @@ SWIFT_CLASS("_TtC12BureauSDKiOS9BureauSDK")
 @class CLLocation;
 @interface BureauSDK (SWIFT_EXTENSION(BureauSDKiOS)) <CLLocationManagerDelegate>
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+@end
+
+@class UIGestureRecognizer;
+SWIFT_CLASS("_TtC12BureauSDKiOS20UserBehaviourCapture")
+@interface UserBehaviourCapture : NSObject <UIGestureRecognizerDelegate>
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #endif

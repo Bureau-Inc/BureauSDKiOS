@@ -1428,6 +1428,91 @@
           },
           {
             "kind": "Function",
+            "name": "getPayload",
+            "printedName": "getPayload(timeOut:getEventId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Swift.String]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12BureauSDKiOS0A3SDKC10getPayload7timeOut0E7EventId10completionySi_ySScySDyS2SGSgctF",
+            "mangledName": "$s12BureauSDKiOS0A3SDKC10getPayload7timeOut0E7EventId10completionySi_ySScySDyS2SGSgctF",
+            "moduleName": "BureauSDKiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "locationManager",
             "printedName": "locationManager(_:didUpdateLocations:)",
             "children": [
@@ -2005,14 +2090,21 @@
                 "kind": "TypeNominal",
                 "name": "UserBehaviourCapture",
                 "printedName": "BureauSDKiOS.UserBehaviourCapture",
-                "usr": "s:12BureauSDKiOS20UserBehaviourCaptureC"
+                "usr": "c:@M@BureauSDKiOS@objc(cs)UserBehaviourCapture"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12BureauSDKiOS20UserBehaviourCaptureCACycfc",
+            "usr": "c:@M@BureauSDKiOS@objc(cs)UserBehaviourCapture(im)init",
             "mangledName": "$s12BureauSDKiOS20UserBehaviourCaptureCACycfc",
             "moduleName": "BureauSDKiOS",
+            "overriding": true,
+            "objc_name": "init",
             "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -2033,6 +2125,8 @@
             "mangledName": "$s12BureauSDKiOS20UserBehaviourCaptureC05startF0yyF",
             "moduleName": "BureauSDKiOS",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -2053,19 +2147,66 @@
             "mangledName": "$s12BureauSDKiOS20UserBehaviourCaptureC04stopF0yyF",
             "moduleName": "BureauSDKiOS",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gestureRecognizer",
+            "printedName": "gestureRecognizer(_:shouldRecognizeSimultaneouslyWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BureauSDKiOS@objc(cs)UserBehaviourCapture(im)gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
+            "mangledName": "$s12BureauSDKiOS20UserBehaviourCaptureC17gestureRecognizer_33shouldRecognizeSimultaneouslyWithSbSo09UIGestureH0C_AGtF",
+            "moduleName": "BureauSDKiOS",
+            "objc_name": "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "s:12BureauSDKiOS20UserBehaviourCaptureC",
+        "usr": "c:@M@BureauSDKiOS@objc(cs)UserBehaviourCapture",
         "mangledName": "$s12BureauSDKiOS20UserBehaviourCaptureC",
         "moduleName": "BureauSDKiOS",
         "declAttributes": [
-          "AccessControl"
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
         ],
+        "superclassUsr": "c:objc(cs)NSObject",
         "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -2080,6 +2221,62 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -7149,6 +7346,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BureauSDKiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "String",
         "printedName": "String",
@@ -9222,17 +9429,10 @@
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 564,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
       "kind": "Dictionary",
-      "offset": 4556,
-      "length": 263,
-      "value": "[(\"aii\", false), (\"ibe\", true), (\"iadce\", true), (\"igdce\", true), (\"ialdce\", true)]"
+      "offset": 4763,
+      "length": 376,
+      "value": "[(\"aii\", false), (\"ibe\", true), (\"iadce\", true), (\"igdce\", true), (\"ialdce\", true), (\"itpce\", false), (\"isvce\", false), (\"ikte\", false)]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/WifiDetailManager.swift",
@@ -9370,7 +9570,7 @@
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1108,
+      "offset": 1106,
       "length": 5,
       "value": "false"
     },
@@ -9384,72 +9584,170 @@
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1261,
+      "offset": 1200,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1307,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1816,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1856,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "Array",
-      "offset": 452,
+      "offset": 9894,
+      "length": 35,
+      "value": "[\"iOSId_\", \"advertisingID_\", \"vId\"]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10353,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
+      "kind": "Array",
+      "offset": 491,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
       "kind": "Array",
-      "offset": 508,
+      "offset": 547,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
       "kind": "Array",
-      "offset": 565,
+      "offset": 604,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
       "kind": "Array",
-      "offset": 677,
+      "offset": 716,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
       "kind": "Array",
-      "offset": 739,
+      "offset": 778,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
-      "offset": 798,
+      "offset": 837,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
-      "offset": 851,
+      "offset": 890,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
-      "offset": 936,
+      "offset": 975,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 1005,
+      "offset": 1044,
       "length": 28,
       "value": "\"com.bureau.behavioral.data\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
+      "kind": "Array",
+      "offset": 1165,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
+      "kind": "Array",
+      "offset": 1219,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
+      "kind": "Array",
+      "offset": 1269,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
+      "kind": "Dictionary",
+      "offset": 1342,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
+      "kind": "Dictionary",
+      "offset": 1404,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
+      "kind": "Array",
+      "offset": 1479,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1612,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1652,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BB\/UserBehaviourCapture.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1688,
+      "length": 2,
+      "value": "50"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppInstallUpdateTracker.swift",
@@ -9573,84 +9871,91 @@
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 464,
+      "length": 18,
+      "value": "\"GetPayloadCalled\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 543,
       "length": 9,
       "value": "\"eventId\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 524,
+      "offset": 571,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 554,
+      "offset": 601,
       "length": 11,
       "value": "\"eventName\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 593,
+      "offset": 640,
       "length": 17,
       "value": "\"deviceTimestamp\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 632,
+      "offset": 679,
       "length": 11,
       "value": "\"errorCode\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 669,
+      "offset": 716,
       "length": 15,
       "value": "\"appIdentifier\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 707,
+      "offset": 754,
       "length": 12,
       "value": "\"appVersion\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 742,
+      "offset": 789,
       "length": 11,
       "value": "\"osVersion\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 775,
+      "offset": 822,
       "length": 11,
       "value": "\"modelName\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 811,
+      "offset": 858,
       "length": 14,
       "value": "\"manufacturer\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 854,
+      "offset": 901,
       "length": 18,
       "value": "\"bureauSdkVersion\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
-      "offset": 893,
+      "offset": 940,
       "length": 10,
       "value": "\"metadata\""
     },
@@ -9701,7 +10006,7 @@
       "kind": "StringLiteral",
       "offset": 405,
       "length": 7,
-      "value": "\"1.0.5\""
+      "value": "\"1.1.1\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
