@@ -1709,257 +1709,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Environment",
-        "printedName": "Environment",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "development",
-            "printedName": "development",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BureauSDKiOS.Environment.Type) -> BureauSDKiOS.Environment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "BureauSDKiOS.Environment",
-                    "usr": "s:12BureauSDKiOS11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BureauSDKiOS.Environment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "BureauSDKiOS.Environment",
-                        "usr": "s:12BureauSDKiOS11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12BureauSDKiOS11EnvironmentO11developmentyA2CmF",
-            "mangledName": "$s12BureauSDKiOS11EnvironmentO11developmentyA2CmF",
-            "moduleName": "BureauSDKiOS"
-          },
-          {
-            "kind": "Var",
-            "name": "staging",
-            "printedName": "staging",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BureauSDKiOS.Environment.Type) -> BureauSDKiOS.Environment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "BureauSDKiOS.Environment",
-                    "usr": "s:12BureauSDKiOS11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BureauSDKiOS.Environment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "BureauSDKiOS.Environment",
-                        "usr": "s:12BureauSDKiOS11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12BureauSDKiOS11EnvironmentO7stagingyA2CmF",
-            "mangledName": "$s12BureauSDKiOS11EnvironmentO7stagingyA2CmF",
-            "moduleName": "BureauSDKiOS"
-          },
-          {
-            "kind": "Var",
-            "name": "production",
-            "printedName": "production",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BureauSDKiOS.Environment.Type) -> BureauSDKiOS.Environment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "BureauSDKiOS.Environment",
-                    "usr": "s:12BureauSDKiOS11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BureauSDKiOS.Environment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "BureauSDKiOS.Environment",
-                        "usr": "s:12BureauSDKiOS11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12BureauSDKiOS11EnvironmentO10productionyA2CmF",
-            "mangledName": "$s12BureauSDKiOS11EnvironmentO10productionyA2CmF",
-            "moduleName": "BureauSDKiOS"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Environment",
-                "printedName": "BureauSDKiOS.Environment",
-                "usr": "s:12BureauSDKiOS11EnvironmentO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Environment",
-                "printedName": "BureauSDKiOS.Environment",
-                "usr": "s:12BureauSDKiOS11EnvironmentO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12BureauSDKiOS11EnvironmentO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s12BureauSDKiOS11EnvironmentO2eeoiySbAC_ACtFZ",
-            "moduleName": "BureauSDKiOS",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12BureauSDKiOS11EnvironmentO9hashValueSivp",
-            "mangledName": "$s12BureauSDKiOS11EnvironmentO9hashValueSivp",
-            "moduleName": "BureauSDKiOS",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12BureauSDKiOS11EnvironmentO9hashValueSivg",
-                "mangledName": "$s12BureauSDKiOS11EnvironmentO9hashValueSivg",
-                "moduleName": "BureauSDKiOS",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12BureauSDKiOS11EnvironmentO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s12BureauSDKiOS11EnvironmentO4hash4intoys6HasherVz_tF",
-            "moduleName": "BureauSDKiOS",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:12BureauSDKiOS11EnvironmentO",
-        "mangledName": "$s12BureauSDKiOS11EnvironmentO",
-        "moduleName": "BureauSDKiOS",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "BureauFingerprintDelegate",
         "printedName": "BureauFingerprintDelegate",
         "children": [
@@ -5373,13 +5122,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BureauSDKiOS"
-      },
-      {
         "kind": "TypeDecl",
         "name": "LocalRiskSignalFrequesncy",
         "printedName": "LocalRiskSignalFrequesncy",
@@ -7261,7 +7003,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(credentialID:environment:enableBehavioralBiometrics:userId:flow:enableDebugLog:)",
+            "printedName": "init(credentialID:baseURL:enableBehavioralBiometrics:userId:flow:enableDebugLog:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7277,9 +7019,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Environment",
-                "printedName": "BureauSDKiOS.Environment",
-                "usr": "s:12BureauSDKiOS11EnvironmentO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -7311,8 +7053,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12BureauSDKiOS0A6ConfigV12credentialID11environment26enableBehavioralBiometrics6userId4flow0H8DebugLogACSS_AA11EnvironmentOSbS2SSbtcfc",
-            "mangledName": "$s12BureauSDKiOS0A6ConfigV12credentialID11environment26enableBehavioralBiometrics6userId4flow0H8DebugLogACSS_AA11EnvironmentOSbS2SSbtcfc",
+            "usr": "s:12BureauSDKiOS0A6ConfigV12credentialID7baseURL26enableBehavioralBiometrics6userId4flow0I8DebugLogACSS_SSSbS2SSbtcfc",
+            "mangledName": "$s12BureauSDKiOS0A6ConfigV12credentialID7baseURL26enableBehavioralBiometrics6userId4flow0I8DebugLogACSS_SSSbS2SSbtcfc",
             "moduleName": "BureauSDKiOS",
             "declAttributes": [
               "AccessControl"
@@ -9430,7 +9172,7 @@
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
       "kind": "Dictionary",
-      "offset": 4763,
+      "offset": 4789,
       "length": 376,
       "value": "[(\"aii\", false), (\"ibe\", true), (\"iadce\", true), (\"igdce\", true), (\"ialdce\", true), (\"itpce\", false), (\"isvce\", false), (\"ikte\", false)]"
     },
@@ -9542,84 +9284,84 @@
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 888,
+      "offset": 862,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1038,
+      "offset": 1012,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 1075,
+      "offset": 1049,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 1106,
+      "offset": 1080,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1148,
+      "offset": 1122,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1196,
+      "offset": 1170,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1242,
+      "offset": 1216,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1349,
+      "offset": 1323,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1858,
+      "offset": 1832,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 1898,
+      "offset": 1872,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "Array",
-      "offset": 10729,
+      "offset": 11195,
       "length": 35,
       "value": "[\"iOSId_\", \"advertisingID_\", \"vId\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 11188,
+      "offset": 11654,
       "length": 3,
       "value": "200"
     },
@@ -9997,182 +9739,70 @@
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 203,
-      "length": 29,
-      "value": "\"https:\/\/bbadev.sbi.bank.in\/\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 273,
-      "length": 29,
-      "value": "\"https:\/\/bbauat.sbi.bank.in\/\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 344,
-      "length": 26,
-      "value": "\"https:\/\/bba.sbi.bank.in\/\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 405,
+      "offset": 179,
       "length": 7,
-      "value": "\"1.1.2\""
+      "value": "\"1.1.3\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 440,
-      "length": 578,
-      "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/z0AqqbOP2od7ag4sNW\/MbvAD8wXuOQmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBrOUahomTsZPo6Q3HTQyoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYurtlC4CyrePt8HODAJdqcFIQeUE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT40KB+WLzyUF0GUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1047,
-      "length": 578,
-      "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/zOAqqbOP2od7ag4sNW\/MbvAD8wXu0QmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBr0UahowTszPo6Q3HTyQoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYulkdC4CyrePt8HODAJdqcFIQeuE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT4OKB+WLzyUF0GUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1654,
+      "offset": 214,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/z0AqqbOP2od7ag4sNW\/MbvAD8wXu0QmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBr0UahowTszPo6Q3HTQyoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYurtlC4CyrePt8HODAJdqcFIQeuE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT40KB+WLzyUF0GUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2266,
-      "length": 578,
-      "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9wOBAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/z0AqqbOP2od7ag4sNW\/MbvAD8wXu0QmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBr0UahowTszPo6Q3HTQyoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYurtlC4CyrePt8HODAJdqcFIQeuE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT40KB+WLzyUFOGUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2872,
-      "length": 400,
-      "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1ZWFRiVDWd7o++ufxGHzqYueDarqrAucC4NvFf9ReaTYTutOQfGWi6IrqSClnM13tVDOm0UtCsrbcbByg9fyOUDZSma1A2JZFbT8f6Yz\/+3rIVTX1XeH1qtZIGm6UG2vLUK00V+OHWX9UMVsrsx3C7njlR1g4JavjN3Xbr73WCwk+rPWCCXT1Ro01IxToEeTrZ5TrL2iZ2wyHgzqCITlI4bBEDbotPYZEn980JeZv5swfVnJ4+HhJfWj2LBA9e2uLgIRtsTIf7eu\/gcQMGdZ9IDsSBWQGOgSqjgihbnUp1gWvGeXR3lTDYUyTO4vtjG+X1qZ\/UTaVmUN6aJo0XLfHwIDAQAB\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3302,
-      "length": 400,
-      "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApfCytJDH\/Vz5v9cF+5adOHjCRy07qBIKLoEIvwNMDjIi\/tOzJI1EBRPPWvqZkwbeiQ6BZ2pkKIoi8\/0sfcUDV5CQ3kxigtT6lMV\/U6CwKUaF9228EC6hTQJa+xSs0+6zzFC1ekOWCAGk+WL2kU1aD5WGzYmKBVBL5Vi6wbzlB\/KzUjE+d3Q54AfQwnb752wvQ0OVh7h4tqQuIHzrju63GhhRtdzw2jb3sxSorWJHn8SqIuOkfLOw4vo0TuxCopSXjcteXs\/erhhDTNDgFFaTqA8ec\/D8TMD\/7flU5xlHHHQ27ndEKVL4I5dcak6tdhStWHVhiNFbMG3wuHNQZP\/4DQIDAQAB\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3730,
+      "offset": 816,
       "length": 279,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgeihrwu6Oh4ucFwCVtW9fuzAP\nDdJt1+8zOlxTqZY7AumJJjFSqbzJf0m76ZYuZfVNJpx8wiyv3LiUEAIiEQpm5P+k\nRYyBEEBXAG2w+xmY8dJy4y\/fDLIhVj3TNdCq\/Rz9tOAZN7hYCVEbBJtJLh3rqqGz\n+AvPdOBoJTfGQQVS3QIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4072,
+      "offset": 1158,
       "length": 33,
       "value": "\"v1\/deviceService\/deviceData\/ios\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4141,
-      "length": 7,
-      "value": "\"v2\/pc\""
+      "offset": 1229,
+      "length": 28,
+      "value": "\"v1\/instrumentation\/sdk\/ios\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4187,
-      "length": 39,
-      "value": "\"v1\/deviceService\/behaviour\/subSession\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4258,
-      "length": 109,
-      "value": "\"wss:\/\/k69rlbfuz2.execute-api.ap-south-1.amazonaws.com\/dev?credentialId=3e8449fb-d8a0-4e38-a643-ab4bb6d8d775\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5526,
+      "offset": 1367,
       "length": 23,
       "value": "\"kcUniqueIdentifierKey\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5639,
+      "offset": 1480,
       "length": 11,
       "value": "\"kcAppGuid\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5692,
+      "offset": 1533,
       "length": 15,
       "value": "\"kcAppGuidHash\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5755,
+      "offset": 1596,
       "length": 12,
       "value": "\"isTampered\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6018,
-      "length": 55,
-      "value": "\"https:\/\/bbadev.sbi.bank.in\/v1\/instrumentation\/sdk\/ios\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6126,
-      "length": 55,
-      "value": "\"https:\/\/bbauat.sbi.bank.in\/v1\/instrumentation\/sdk\/ios\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6235,
-      "length": 52,
-      "value": "\"https:\/\/bba.sbi.bank.in\/v1\/instrumentation\/sdk\/ios\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6342,
-      "length": 102,
-      "value": "\"M2U4NDQ5ZmItZDhhMC00ZTM4LWE2NDMtYWI0YmI2ZDhkNzc1OjEwYjYwZTQyLTA3MDAtNDNhMy04NzE5LWJhNGFiNmRlZGIxZA==\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6471,
-      "length": 102,
-      "value": "\"MzNiNTQ0N2ItZGU2My00MTZjLTgzYTMtYjdhNTk5ZTVmYjU1OjFhZGQwMjAxLWZiODEtNDJjOS1hMzNiLTcxN2Y1ZWVkNWVmNg==\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6600,
-      "length": 102,
-      "value": "\"ODA5MjVhMjktN2U0Yi00N2I4LWI0ZDMtN2YyZmMyZDY5ZTU3OmEzZjEyZWFkLWI0OWEtNDdkNi05Mzg4LTRiYzkzZWM3N2RhNQ==\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6838,
+      "offset": 1825,
       "length": 9,
       "value": "\"private\""
     },
@@ -10207,49 +9837,49 @@
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "StringLiteral",
-      "offset": 387,
+      "offset": 378,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "StringLiteral",
-      "offset": 413,
+      "offset": 404,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 447,
+      "offset": 438,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 557,
+      "offset": 539,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "StringLiteral",
-      "offset": 581,
+      "offset": 563,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "StringLiteral",
-      "offset": 600,
+      "offset": 582,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 627,
+      "offset": 609,
       "length": 5,
       "value": "false"
     }

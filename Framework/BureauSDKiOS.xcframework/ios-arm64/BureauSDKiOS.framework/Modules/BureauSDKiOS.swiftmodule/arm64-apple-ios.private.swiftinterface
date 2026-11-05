@@ -87,16 +87,6 @@ extension BureauSDKiOS.BureauSDK : CoreLocation.CLLocationManagerDelegate {
 }
 public struct CredentialBuilder {
 }
-public enum Environment {
-  case development
-  case staging
-  case production
-  public static func == (a: BureauSDKiOS.Environment, b: BureauSDKiOS.Environment) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 public protocol BureauFingerprintDelegate : ObjectiveC.NSObject {
   #if compiler(>=5.3) && $NonescapableTypes
   func onFinished(eventID: Swift.String?, data: [Swift.String : Any]?)
@@ -275,10 +265,8 @@ public class BureauSecurityLib {
   @objc deinit
 }
 public struct BureauConfig {
-  public init(credentialID: Swift.String, environment: BureauSDKiOS.Environment, enableBehavioralBiometrics: Swift.Bool = false, userId: Swift.String = "", flow: Swift.String = "", enableDebugLog: Swift.Bool = false)
+  public init(credentialID: Swift.String, baseURL: Swift.String, enableBehavioralBiometrics: Swift.Bool = false, userId: Swift.String = "", flow: Swift.String = "", enableDebugLog: Swift.Bool = false)
 }
-extension BureauSDKiOS.Environment : Swift.Equatable {}
-extension BureauSDKiOS.Environment : Swift.Hashable {}
 extension BureauSDKiOS.UserBehaviourCapture : Swift.Sendable {}
 extension BureauSDKiOS.FingerprintJSVersion : Swift.Equatable {}
 extension BureauSDKiOS.FingerprintJSVersion : Swift.Hashable {}
